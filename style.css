@@ -1,0 +1,55 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+
+#world {
+  position: relative;
+  background-color: #40a0ff;
+  border: 2px #1979f9 solid;
+}
+
+.alert {
+  position: absolute; 
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+}
+
+.alert p {
+  background: black;
+  display: flex;
+  color: white;
+  padding: 10px 20px;
+  margin: 12px 36px;
+  border: 2px white solid;
+  font-family: monospace;
+  justify-content: center;
+}
+
+.tile {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background-color: brown;
+}
+
+.player {
+  width: 12px;
+  height: 18px;
+  position: absolute;
+  background-color: black;
+}
+
+#game {
+  display: flex;
+  flex-flow: column;
+  margin: 20px;
+}
+
+.control-bar {
+  padding: 10px 5px;
+  
+}
